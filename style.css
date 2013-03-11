@@ -1,0 +1,74 @@
+/*
+Theme Name:     twentytwelve-child
+Description:    
+Author:         Tarique Sani	
+Template:       twentytwelve
+Version: 		0.1
+*/
+
+
+@import url("../twentytwelve/style.css");
+
+.thumbnail img {
+	margin-right: 15px;
+	float: left;
+	max-width: 250px;
+	max-height: 250px;
+}
+
+@media screen and (max-width: 599px) {
+
+.main-navigation ul.nav-menu.toggled-on li a,
+.main-navigation ul.nav-menu.toggled-on {
+	display: block;
+}
+.menu-toggle a, .menu-toggle a:hover{
+	font-family: "Open Sans",Helvetica,Arial,sans-serif;
+	text-decoration: none;
+	color: #636363;
+}
+.menu-toggle:after {
+	color: #636363;
+   	background-image: url("img/glyphicons_113_justify.png");
+   	background-size: 16px;
+   	position:absolute;
+    height: 14px;
+    vertical-align: text-top;
+    width: 14px;
+    margin-left: 3px;
+    margin-top: 1px;
+    content: " ";
+
+}
+
+.main-navigation ul.nav-menu.toggled-on li {
+	margin-top: 1em;
+}
+
+.main-navigation ul.nav-menu.toggled-on li ul li{
+	margin-top: 1em;
+	padding-left: 15px;
+}
+
+.main-navigation ul.nav-menu.toggled-on {
+	margin-top: 5px;
+	padding: 5px 5px;
+	border: 1px solid #d2d2d2;
+	border-radius: 3px;
+}
+
+.menu-toggle {
+	display: block;
+	text-align: center;
+	color: #636363;
+}
+
+.site-header h1,
+.site-header h2 {
+	text-align: left;
+}
+
+.main-navigation {
+	text-align: left;
+}
+}
